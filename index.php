@@ -235,9 +235,9 @@
 					
 					<p>We're excited to have you here!
 					<br /><div id="hack"></div>
-					Please comment below or mail us at <b>namaste@stepout.co.in</b>. We will get back to you within 24 hours.</p>
+					Please mail us at <b>namaste@stepout.co.in</b>. We will get back to you within 24 hours.</p>
 					
-					<form method="post" action="index.php">
+					<!--<form method="post" action="index.php">
 						<div class="row">
 							<div class="6u 12u(mobilep)">
 								<input type="text" name="name" placeholder="Name" />
@@ -258,7 +258,7 @@
 								</ul>
 							</div>
 						</div>
-					</form>
+					</form>-->
 
 					<!--<? php 
 						if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) === false) {

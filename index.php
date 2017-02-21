@@ -47,7 +47,7 @@
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image"><img src="images/pic02.jpg" style="left:-205px" alt="" /></a>
+						<a href="#" class="image"><img src="images/pic02.jpg" style="left:-225px" alt="" /></a>
 						<div class="content">
 							<h3>Publicize</h3>
 							<p>Who doesn’t wish for a great turnout for an event
@@ -235,7 +235,7 @@
 					
 					<p>We're excited to have you here!
 					<br /><div id="hack"></div>
-					Please mail us at <b>namaste@stepout.co.in</b>. We will get back to you within 24 hours.</p>
+					Please comment below or mail us at <b>namaste@stepout.co.in</b>. We will get back to you within 24 hours.</p>
 					
 					<form method="post" action="index.php">
 						<div class="row">

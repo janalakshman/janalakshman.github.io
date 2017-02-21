@@ -14,7 +14,7 @@
 			<div id="header">
 				
 				<h1>StepOUT</h1>
-				<h3>Search. Share. Savor.</h3>
+				<h3>Search. Share. Savour.</h3>
 				<p>Tired of scrolling through the same old newsfeed, </a>
 				<br />
 				photos and tweets all day long?</a></p>
@@ -28,10 +28,10 @@
 					<br />
 					
 					<h3>Honestly, we just want everyone 
-					<br />
+					<br /> 
 					to get out there and have fun.
 					<br />
-					That's all we are working for, really.</h3>
+					That's all we are working for.</h3>
 					<!--
 					<p>Tellus erat mauris ipsum fermentum<br />
 					etiam vivamus nunc nibh morbi.</p>
@@ -236,8 +236,8 @@
 					<p>We're excited to have you here!
 					<br /><div id="hack"></div>
 					Please mail us at <b>namaste@stepout.co.in</b>. We will get back to you within 24 hours.</p>
-					<!--
-					<form method="post" action="#">
+					
+					<form method="post" action="index.php">
 						<div class="row">
 							<div class="6u 12u(mobilep)">
 								<input type="text" name="name" placeholder="Name" />
@@ -258,7 +258,23 @@
 								</ul>
 							</div>
 						</div>
-					</form>-->
+					</form>
+
+					<!--<? php 
+						if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) === false) {
+  							echo("<h3>Please enter a valid email address</h3>");
+						}
+
+						$ToEmail = 'venkythesupersaiyan@gmail.com'; 
+						$EmailSubject = 'Site Contact Form StepOUT'; 
+						$mailheader = "From: ".$_POST["email"]."\r\n"; 
+						$mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
+						$mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
+						$MESSAGE_BODY = "Name: ".$_POST["name"].""; 
+						$MESSAGE_BODY .= "Email: ".$_POST["email"].""; 
+						$MESSAGE_BODY .= "Comment: ".nl2br($_POST["message"]).""; 
+						mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); 
+					?>-->
 
 					<!-- <ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
